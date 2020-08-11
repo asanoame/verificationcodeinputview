@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerificationCodeInputView">
+        <!--多少个字符-->
+        <attr name="code_count" format="integer" />
+        <!--字符颜色-->
+        <attr name="code_color" format="color" />
+        <!--字符大小-->
+        <attr name="code_size" format="dimension" />
+        <!--字符背景（单个字符的背景框）-->
+        <attr name="code_background" format="reference" />
+        <!--字符框的间隔-->
+        <attr name="code_padding" format="dimension" />
+        <!--输入结束的监听 dataBinding-->
+        <attr name="on_input_finish" format="string" />
+        <!--输入类型-->
+        <attr name="code_type" format="enum">
+            <enum name="text" value="0" />
+            <enum name="password" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
